@@ -80,3 +80,5 @@ docker container exec -it 56 bash
 docker build -t java11 .
 docker run java1
 
+Git test
+
