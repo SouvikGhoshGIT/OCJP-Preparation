@@ -1,0 +1,82 @@
+============================1.Working with Java data types============================ (8)
+
+Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
+Handle text using String and StringBuilder classes
+Use local variable type inference, including as lambda parameters
+
+============================2.Controlling Program Flow============================ (8)
+
+Create and use loops, if/else, and switch statements
+
+============================3.Java Object-Oriented Approach============================ (25)
+
+Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)
+Define and use fields and methods, including instance, static and overloaded methods
+Initialize objects and their members using instance and static initialiser statements and constructors
+Understand variable scopes, apply encapsulation and make objects immutable
+Create and use subclasses and superclasses, including abstract classes
+Utilize polymorphism and casting to call methods, differentiate object type versus reference type
+Create and use interfaces, identify functional interfaces, and utilize private, static, and default methods
+Create and use enumerations
+
+============================4.Exception Handling============================ (8)
+
+Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements
+Create and use custom exceptions
+
+============================5.Working with Arrays and Collections============================ (8)
+
+Use generics, including wildcards
+Use a Java array and List, Set, Map and Deque collections, including convenience methods
+Sort collections and arrays using Comparator and Comparable interfaces
+
+============================6.Working with Streams and Lambda expressions============================ (16)
+
+Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package
+Use Java Streams to filter, transform and process data
+Perform decomposition and reduction, including grouping and partitioning on sequential and parallel streams
+
+============================7.Java Platform Module System============================ (10)
+
+Deploy and execute modular applications, including automatic modules
+Declare, use, and expose modules, including the use of services
+
+============================8.Concurrency============================ (5)
+
+Create worker threads using Runnable and Callable, and manage concurrency using an ExecutorService and java.util.concurrent API
+Develop thread-safe code, using different locking mechanisms and java.util.concurrent API
+
+============================9.Java I/O API============================ (5)
+
+Read and write console and file data using I/O Streams
+Implement serialization and deserialization techniques on Java objects
+Handle file system objects using java.nio.file API
+
+============================10.Secure Coding in Java SE Application============================ (4)
+
+Develop code that mitigates security threats such as denial of service, code injection, input validation and ensure data integrity
+Secure resource access including filesystems, manage policies and execute privileged code
+
+============================11.Database Applications with JDBC============================ (4)
+
+Connect to and perform database SQL operations, process query results using JDBC API
+
+============================12.Localization============================ (4)
+
+Implement Localization using Locale, resource bundles, and Java APIs to parse and format messages, dates, and numbers
+
+============================13.Annotations============================ (4)
+
+Create, apply, and process annotations
+
+=== 90 Min ; 50 Q ;70% to pass ===
+17-7
+
+==Docker Setup===
+docker run  openjdk //docker run  -it openjdk
+docker ps -a
+docker run  openjdk sleep 500
+docker container exec -it 56 bash
+docker build -t java11 .
+docker run java1
+
